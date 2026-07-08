@@ -16,10 +16,8 @@ class Stack {
                 capacity *= 2;
                 T* tmp = new T[capacity];
                 for (int i=0;i<=t;++i) tmp[i]=s[i];
-                tmp[t+1]=val;
                 delete s;
                 s = tmp;
-                return;
             }
             s[++t]=val;
         }

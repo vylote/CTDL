@@ -12,7 +12,7 @@ private:
 public:
     TreeNode(T e) : elem(e), parent(nullptr) {}
 
-    // Cấm copy (Rule of Three — giống BTree)
+    // Cấm copy (Rule of Three — giống BTree) // ngan copy nong kieu khi xoa 
     TreeNode(const TreeNode&)            = delete;
     TreeNode& operator=(const TreeNode&) = delete;
 

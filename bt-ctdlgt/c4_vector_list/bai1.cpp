@@ -19,7 +19,7 @@ public:
             return;
         for (int i = pos; i < n - 1; ++i)
             a[i] = a[i + 1];
-        n--;
+        --n;
     }
 
     void assign(int i, T val)
